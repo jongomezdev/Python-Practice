@@ -10,7 +10,6 @@
 # print("a: " + a)
 # print("b: " + b)
 
-#Write your code below this line 👇
 # print(len(input('What is your name?')))
 
 # name = input('What is your name?')
@@ -30,8 +29,10 @@
 
 # print("Your band name could be " + city + ' ' + petName)
 
-
+############################################
 # #Data Types
+############################################
+
 # #checks the data type
 # type() 
 
@@ -70,7 +71,9 @@
 # 2 to the power of 2 is writtin with two asterics 
 
 
-################# BMI CALCULATOR ##################
+############################################ 
+#BMI CALCULATOR 
+############################################
 
 # height = input("enter your height in m: ")
 # weight = input("enter your weight in kg: ")
@@ -80,7 +83,10 @@
 # bmiWhole = int(bmi) ## turns result into a whole number
 # print(bmi)
 
-# ##### ROUNDING ######################
+############################################
+# ROUNDING 
+############################################
+
 # print(round(8 / 3))
 # ## Rounding to two decimal places ##
 # print(round(8 / 3, 2))
@@ -93,7 +99,9 @@
 # print(f"your score is {score}")
 
 
-############# TIME LEFT CALC ############
+############################################
+# TIME LEFT CALC 
+############################################
 
 # age = input("What is your current age?")
 
@@ -111,7 +119,9 @@
 # print(message)
 
 
-############## TIP CALCULATOR ##################
+############################################
+# TIP CALCULATOR 
+############################################
 
 # print("Welcome to the tip calculator!")
 # bill = float(input("What was the total bill? $"))
@@ -128,7 +138,9 @@
 # print(f"Each person should pay: ${final_amount}")
 
 
-############ If Else Statement  ROLLERCOASTER ############
+############################################
+# If Else Statement  ROLLERCOASTER 
+############################################
 
 # print("Welcome to the rollercoaster!")
 # height = int(input("What is your height in cm? "))
@@ -138,7 +150,9 @@
 # else:
 #   print('Sorry, grow a little!')
 
-  ############## Nested If Else Statement ################
+############################################
+  # Nested If Else Statement 
+############################################
 
 # print("Welcome to the rollercoaster!")
 # height = int(input("What is your height in cm? "))
@@ -167,7 +181,9 @@
 # else:
 #   print('Sorry, you have to be taller to get on this ride.')
 
-  ################## Elif statement with BMI Calc ####################
+############################################
+  # Elif statement with BMI Calc 
+############################################
 
 # height = float(input("enter your height in m: "))
 # weight = float(input("enter your weight in kg: "))
@@ -186,7 +202,9 @@
 #   print(f'Youre bmi is {bmi}, you are clinically obese')
 
 
-################## Leap Year Calc #########################
+############################################
+# Leap Year Calc 
+############################################
 
 # year = int(input("Which year do you want to check? "))
 
@@ -202,7 +220,10 @@
 #   print('Not a leap year')
 
 
-################## Leap Year WITH OUTPUT FUNCTION #########################
+############################################
+# Leap Year WITH OUTPUT FUNCTION 
+############################################
+
 # def is_leap(year):
 #   if year % 4 == 0:
 #     if year % 100 == 0:
@@ -221,14 +242,14 @@
 #     return 29
 #   return month_days[month - 1]
   
-  
-# #🚨 Do NOT change any of the code below 
 # year = int(input("Enter a year: "))
 # month = int(input("Enter a month: "))
 # days = days_in_month(year, month)
 # print(days)
 
-  ################# PYTHON PIZZA ##########################
+############################################
+  # PYTHON PIZZA 
+############################################
 
 # print("Welcome to Python Pizza Deliveries!")
 # size = input("What size pizza do you want? S, M, or L ")
@@ -255,7 +276,9 @@
 
 # print(f"Your total is ${bill}")
 
-################ LOVE CALC ###################
+############################################
+# LOVE CALC 
+############################################
 
 # print("Welcome to the Love Calculator!")
 # name1 = input("What is your name? \n")
@@ -288,7 +311,9 @@
 # else:
 #   print(f"Your score is{love_score}")
 
-###################### Random numbers #################################
+############################################
+# Random numbers 
+############################################
 
 # import random ## imports the module random
 # rand_int = random.randint(1, 1000) # specify a start and an end. random num is in between
@@ -312,7 +337,9 @@
 # else:
 #   print("Tales")
 
-################ PYTHON LISTS ############################
+############################################
+# PYTHON LISTS 
+############################################
 
 # fruits = ["Cherry", "Apple", "Banana"]
 
@@ -324,7 +351,9 @@
 # print(x)
 
 
-############ Generating random choice from a list #####################
+############################################
+# Generating random choice from a list 
+############################################
 
 # import random
 # # Split string method
@@ -339,7 +368,9 @@
 
 # print(f"{person} is going to buy the meal today!")
 
-##################################### NESTED LIST ###############################
+############################################
+# NESTED LIST 
+############################################
 
 # fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
 # vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
@@ -366,14 +397,18 @@
 # print(f"{row1}\n{row2}\n{row3}")
 
 
-##################### FOR LOOPS #############################
+############################################
+# FOR LOOPS 
+############################################
 
 # fruits = ["Apple", "Peach", "Pear", "Cherry", "Strawberry"]
 
 # for fruit in fruits: 
 #   print(fruit + " pie")
 
-################################ STUDENT HEIGHTS #################################
+############################################
+# STUDENT HEIGHTS 
+############################################
 
 # student_heights = input("Input a list of student heights ").split()
 # for n in range(0, len(student_heights)):
@@ -394,7 +429,9 @@
 # average_height = round(total_height / number_of_students)
 # print(average_height)
 
-########################## STUDENT SCORES #################################
+############################################
+# STUDENT SCORES 
+############################################
 
 # student_scores = input("Input a list of student scores ").split()
 # for n in range(0, len(student_scores)):
@@ -414,7 +451,10 @@
 #     if minimum > score:
 #        minimum = score
 # print(minimum)
-########################### RANGE METHOD ##################################
+
+############################################
+# RANGE METHOD 
+############################################
 
 # for number in range(1, 11):
 #   print(number)
@@ -438,12 +478,17 @@
 #   flavor = flavor_list[i]
 #   print(f'{i + 1}: {flavor}')
 
-######################### Enumerate ##############################
+############################################
+# Enumerate 
+############################################
+
 # for i, flavor in enumerate(flavor_list, 1):
 #   print(f'{i}: {flavor}')
 
 
-########################### FIZZ BUZZ IN PYTHON!! ###########################
+############################################
+# FIZZ BUZZ IN PYTHON!! 
+############################################
 
 
 # for number in range(1, 101):
@@ -457,7 +502,9 @@
 #     print(number)
 
 
-############################## DEFINING FUNCTIONS ###################################
+############################################
+# DEFINING FUNCTIONS 
+############################################
 
 # def jump():
 #     move()
@@ -480,7 +527,9 @@
 #   jump()
 #   number_of_hurdles -= 1
 
-###################### WHILE LOOP ######################
+############################################
+# WHILE LOOP 
+############################################
 
 # while not at_finishline():
 #   run()
@@ -491,7 +540,9 @@
 #   else:
 #       move()
 
-################ Functions with inputs ##################
+############################################
+# Functions with inputs 
+############################################
 
 # def greet(name): ## parameter
 #   print(f"Hello {name}")
@@ -499,13 +550,17 @@
 #   print(f"Hola {name}")
 # greet("Jonathan") ## argument
 
-################## Keyword Arguments ##################
+############################################
+# Keyword Arguments 
+############################################
 
 # def greet_with(name, location):
 #   print(f"Hello {name}, what's it like in {location}?")
 # greet_with(location="New York", name="Jonathan")
 
-############################ PYTHON DICTIONARIES ################################
+############################################
+# PYTHON DICTIONARIES 
+############################################
 
 # programming_dictionary = {
 #   "Bug": "An error in a program that prevents the program from running as expected.", 
@@ -533,7 +588,9 @@
   # print(key)
   # print(programming_dictionary[key])
 
-#################### Manipulating Dictionaries #################################
+############################################
+# Manipulating Dictionaries 
+############################################
 
 #   student_scores = {
 #   "Harry": 81,
@@ -546,8 +603,6 @@
 
 #todo-1: Create an empty dictionary called student_grades.
 # student_grades = {}
-
-#todo-2: Write your code below to add the grades to student_grades.👇
 
 # for student in student_scores: 
 #   score = student_scores[student]
@@ -564,7 +619,10 @@
 # print(student_grades)
 
 
-##################### NESTING A DICTIONARY IN A DICTIONARY ######################
+############################################
+# NESTING A DICTIONARY IN A DICTIONARY 
+############################################
+
 # travel_log = {
 #   "France": {
 #   "cities_visited":
@@ -574,7 +632,10 @@
 #   "Germany": {"cities_visited": ["Berlin", "Hamburg", "Stuttgart"], "total_visits":5}
 # }
 
-##################### NESTING A DICTIONARY IN A LIST ########################
+############################################
+# NESTING A DICTIONARY IN A LIST 
+############################################
+
 # travel_log = [
 #   {
 #     "country": "France", 
@@ -588,7 +649,9 @@
 #   },
 # ]
 
-################## DICTIONARY IN LIST ACT. 92. ##########################
+############################################
+# DICTIONARY IN LIST ACT. 92. 
+############################################
 
 # travel_log = [
 # {
@@ -614,7 +677,9 @@
 # add_new_country("Russia", 2, ["Moscow", "Saint Petersburg"])
 # print(travel_log)
 
-################## BLIND AUCTION ##########################
+############################################
+# BLIND AUCTION 
+############################################
 
 # bids = {}
 # bidding_finished = False
@@ -641,7 +706,9 @@
 #   elif should_continue == "yes":
 #     clear()
   
-################## FUNCTIONS WITH OUTPUTS ##########################
+############################################
+# FUNCTIONS WITH OUTPUTS 
+############################################
 
 # def format_name(f_name, l_name):
 #   """Take a first and last name and format it to return the title case version of the name."""
@@ -655,7 +722,9 @@
 # print(format_name(input("What is your first name? "), input("What is your last name? ")))
 
 
-##################### Scoping #########################
+############################################
+# Scoping 
+############################################
 
 i = 50
 def foo():
